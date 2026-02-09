@@ -174,3 +174,8 @@
 .countdown-pulse {
   animation: countdownPulse 1s ease-in-out infinite;
 }
+
+/* Esconder links que contenham 'lovable' no href */
+a[href*="lovable"] {
+  display: none !important;
+}
